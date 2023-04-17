@@ -1,0 +1,18 @@
+.product-box{
+    transition: .3s all ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+    .product-box{
+        flex-direction: row;
+        justify-content: start;
+        margin: 10px 0;
+    }
+    .imgContainer{
+        border-right: 1px solid rgb(161, 161, 161);
+    }
+}
